@@ -7,17 +7,13 @@
   [options]="options"
   (mapClick)="click($event)"
 >
-  <map-marker
-    *ngFor="let marker of markers"
-    [position]="marker.position"
-    [label]="marker.label"
-    [title]="marker.title"
-    [options]="marker.options"
-    (mapClick)="openInfo(markerElem, marker.info)"
-  >
-  </map-marker>
+  <map-circle
+    *ngFor="let circle of mapCircles"
+    [center]="circle.center"
+    [radius]="circle.radius"
+    [options]="circle.options"
+  ></map-circle>
 
-  <!-- <map-info-window>{{ infoContent }}</map-info-window> -->
 </google-map>
 
 <button (click)="switchMode('country')">Country</button>

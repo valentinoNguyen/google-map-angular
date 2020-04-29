@@ -31,6 +31,7 @@ export class MapComponent implements OnInit, AfterViewInit {
   infoContent = '';
 
   mapMode: MapMode = MapMode.Country;
+  mapCircles = [];
 
   constructor(private mapService: MapService) {
   }
@@ -61,29 +62,13 @@ export class MapComponent implements OnInit, AfterViewInit {
         fillColor: 'LightGrey',
         fillOpacity: 0.7,
       });
-
-      // this.markers.push({
-      //   position: {
-      //     lat: position.coords.latitude,
-      //     lng: position.coords.longitude,
-      //   },
-      //   label: {
-      //     color: 'blue',
-      //     text: 'Marker label ' + (this.markers.length + 1),
-      //   },
-      //   title: 'Marker title ' + (this.markers.length + 1),
-      //   info: 'Marker info ' + (this.markers.length + 1),
-      //   options: {
-      //     animation: google.maps.Animation.BOUNCE,
-      //   },
-      // });
     });
   }
 
   ngAfterViewInit() {
     this.loadCountryGeoStyle([
       {
-        name: 'Russian Federation',
+        name: 'Australia',
         color: 'red'
       }
     ]);
@@ -111,21 +96,17 @@ export class MapComponent implements OnInit, AfterViewInit {
     console.log(JSON.stringify(this.map.getCenter()));
   }
 
-  addMarker() {
-    this.markers.push({
-      position: {
-        lat: this.center.lat + ((Math.random() - 0.5) * 2) / 10,
-        lng: this.center.lng + ((Math.random() - 0.5) * 2) / 10,
+  addCircle() {
+    this.mapCircles.push({
+      radius: 2000000,
+      center: {
+        lat: -23.70021,
+        lng: 133.88061,
       },
-      label: {
-        color: 'red',
-        text: ' ',
-      },
-      title: ' ',
-      info: 'Marker info ',
-      // options: {
-      //   animation: google.maps.Animation.BOUNCE,
-      // },
+      options: {
+        fillColor: 'red',
+        strokeColor: 'red'
+      }
     });
   }
 
@@ -135,18 +116,21 @@ export class MapComponent implements OnInit, AfterViewInit {
   }
 
   switchMode(mapMode: MapMode) {
-    this.mapMode = mapMode;
-    if (this.mapMode === MapMode.Country) {
-      this.markers = [];
-      this.loadCountryGeoStyle([
-        {
-          name: 'Russian Federation',
-          color: 'red'
-        }
-      ]);
-    } else {
-      this.loadCountryGeoStyle();
-      this.addMarker();
+    if (this.mapMode !== mapMode) {
+      this.mapMode = mapMode;
+      if (this.mapMode === MapMode.Country) {
+        this.markers = [];
+        this.mapCircles = [];
+        this.loadCountryGeoStyle([
+          {
+            name: 'Australia',
+            color: 'red'
+          }
+        ]);
+      } else {
+        this.loadCountryGeoStyle();
+        this.addCircle();
+      }
     }
   }
 
