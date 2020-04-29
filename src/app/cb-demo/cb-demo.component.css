@@ -1,0 +1,36 @@
+div {
+  position: relative;
+}
+
+div > button {
+  position: absolute;
+  top: 0;
+  right: -6px;
+}
+
+button {
+  font-family: inherit;
+  font-size: inherit;
+  padding: 0.4em;
+  margin: 0 0 0.5em 0;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 2px;
+  background-color: #f4f4f4;
+}
+
+input {
+  font-family: inherit;
+  font-size: inherit;
+  padding: 0.4em;
+  margin: 0 0 0.5em 0;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 2px;
+  color: black;
+  background-color: #f0f0f0;
+}
+
+fieldset {
+  margin-bottom: 2em;
+}

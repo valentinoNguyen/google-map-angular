@@ -1,0 +1,1172 @@
+[
+  {
+    "Country": "Monaco",
+    "Country_ISO3": "MCO",
+    "Value" : "0",
+    "Exposure" : "0",
+    "Location": [
+      43.750298,
+      7.412841
+    ]
+  },
+  {
+    "Country": "Bulgaria",
+    "Country_ISO3": "BGR",
+    "Value" : "0",
+    "Exposure" : "0",
+    "Location": [
+      42.733883,
+      25.48583
+    ]
+  },
+  {
+    "Country": "Myanmar",
+    "Country_ISO3": "MMR",
+    "Value" : "0",
+    "Exposure" : "0",
+    "Location": [
+      21.913965,
+      95.956223
+    ]
+  },
+  {
+    "Country": "Belarus",
+    "Country_ISO3": "BLR",
+    "Value" : "0",
+    "Exposure" : "0",
+    "Location": [
+      53.709807,
+      27.953389
+    ]
+  },
+  {
+    "Country": "Cambodia",
+    "Country_ISO3": "KHM",
+    "Value" : "0",
+    "Exposure" : "0",
+    "Location": [
+      12.565679,
+      104.990963
+    ]
+  },
+  {
+    "Country": "Algeria",
+    "Country_ISO3": "DZA",
+    "Value" : "0",
+    "Exposure" : "0",
+    "Location": [
+      28.033886,1.659626
+    ]
+  },
+  {
+    "Country": "Cameroon",
+    "Country_ISO3": "CMR",
+    "Value" : "0",
+    "Exposure" : "0",
+    "Location": [
+      7.369722,12.354722
+    ]
+  },
+  {
+    "Country": "Canada",
+    "Country_ISO3": "CAN",
+    "Value" : "0",
+    "Exposure" : "0",
+    "Location": [
+      56.130366,	-106.346771
+    ]
+  },
+  {
+    "Country": "Chad",
+    "Country_ISO3": "TCD",
+    "Value" : "0",
+    "Exposure" : "0",
+    "Location": [
+      15.454166, 18.732207
+    ]
+  },
+  {
+    "Country": "Chile",
+    "Country_ISO3": "CHL",
+    "Value" : "0",
+    "Exposure" : "0",
+    "Location": [
+      -35.675147,-71.542969
+    ]
+  },
+  {
+    "Country": "China",
+    "Country_ISO3": "CHN",
+    "Value" : "0",
+    "Exposure" : "0",
+    "Location": [
+      	35.86166,104.195397
+    ]
+  },
+  {
+    "Country": "Colombia",
+    "Country_ISO3": "COL",
+    "Value" : "0",
+    "Exposure" : "0",
+    "Location": [
+      	4.570868, -74.297333
+    ]
+  },
+  {
+    "City": "Brazzaville",
+    "Country": "Congo",
+    "Country_ISO3": "COG",
+    "Value" : "0",
+    "Exposure" : "0",
+    "Location": [
+      -4.28,
+      15.28
+    ]
+  },
+  {
+    "Country": "Democratic Republic of the Congo",
+    "Country_ISO3": "COD",
+    "Value" : "0",
+    "Exposure" : "0",
+    "Location": [
+      	-4.038333, 21.758664
+    ]
+  },
+  {
+    "Country": "Costa Rica",
+    "Country_ISO3": "CRI",
+    "Value" : "0",
+    "Exposure" : "0",
+    "Location": [
+      9.748917, -83.753428
+    ]
+  },
+  {
+    "Country": "Cuba",
+    "Country_ISO3": "CUB",
+    "Value" : "0",
+    "Exposure" : "0",
+    "Location": [
+      21.521757,	-77.781167
+    ]
+  },
+  {
+    "Country": "Czech Republic",
+    "Country_ISO3": "CZE",
+    "Value" : "0",
+    "Exposure" : "0",
+    "Location": [
+      49.817492,	15.472962
+    ]
+  },
+  {
+    "Country": "Benin",
+    "Country_ISO3": "BEN",
+    "Value" : "0",
+    "Exposure" : "0",
+    "Location": [
+      9.30769, 2.315834
+    ]
+  },
+  {
+    "Country": "Denmark",
+    "Country_ISO3": "DNK",
+    "Value" : "0",
+    "Exposure" : "0",
+    "Location": [
+      56.26392, 9.501785
+    ]
+  },
+  {
+    "Country": "Dominican Republic",
+    "Country_ISO3": "DOM",
+    "Value" : "0",
+    "Exposure" : "0",
+    "Location": [
+      18.735693, -70.162651
+    ]
+  },
+  {
+    "City": "Guayaquil",
+    "Country": "Ecuador",
+    "Country_ISO3": "ECU",
+    "Value" : "0",
+    "Exposure" : "0",
+    "Location": [
+      -2.2,
+      -79.9
+    ]
+  },
+  {
+    "Country": "Ecuador",
+    "Country_ISO3": "ECU",
+    "Value" : "0",
+    "Exposure" : "0",
+    "Location": [
+      -1.831239, -78.183406
+    ]
+  },
+  {
+    "Country": "El Salvador",
+    "Country_ISO3": "SLV",
+    "Value" : "0",
+    "Exposure" : "0",
+    "Location": [
+      	13.794185, -88.89653
+    ]
+  },
+  {
+    "Country": "Ethiopia",
+    "Country_ISO3": "ETH",
+    "Value" : "0",
+    "Exposure" : "0",
+    "Location": [
+      9.145, 40.489673
+    ]
+  },
+  {
+    "Country": "Angola",
+    "Country_ISO3": "AGO",
+    "Value" : "0",
+    "Exposure" : "0",
+    "Location": [
+      -11.202692, 17.873887
+    ]
+  },
+  {
+    "Country": "Finland",
+    "Country_ISO3": "FIN",
+    "Value" : "0",
+    "Exposure" : "0",
+    "Location": [
+      61.92411, 25.748151
+    ]
+  },
+    {
+    "Country": "France",
+    "Country_ISO3": "FRA",
+    "Value" : "0",
+    "Exposure" : "0",
+    "Location": [
+      	46.227638,	2.213749
+    ]
+  },  
+  {
+    "Country": "Georgia",
+    "Country_ISO3": "GEO",
+    "Value" : "0",
+    "Exposure" : "0",
+    "Location": [
+      42.315407, 43.356892
+    ]
+  },
+  {
+    "Country": "Germany",
+    "Country_ISO3": "DEU",
+    "Value" : "0",
+    "Exposure" : "0",
+    "Location": [
+      51.165691, 10.451526
+    ]
+  },
+  {
+    "City": "Accra",
+    "Country": "Ghana",
+    "Country_ISO3": "GHA",
+    "Value" : "0",
+    "Exposure" : "0",
+    "Location": [
+      5.55,
+      -0.2
+    ]
+  },
+  {
+    "Country": "Ghana",
+    "Country_ISO3": "GHA",
+    "Value" : "0",
+    "Exposure" : "0",
+    "Location": [
+      7.946527, -1.023194
+    ]
+  },
+  {
+    "Country": "Greece",
+    "Country_ISO3": "GRC",
+    "Value" : "0",
+    "Exposure" : "0",
+    "Location": [
+      	39.074208, 21.824312
+    ]
+  },
+  {
+    "Country": "Azerbaijan",
+    "Country_ISO3": "AZE",
+    "Value" : "0",
+    "Exposure" : "0",
+    "Location": [
+      40.143105,  47.576927
+    ]
+  },
+  {
+    "Country": "Argentina",
+    "Country_ISO3": "ARG",
+    "Value" : "0",
+    "Exposure" : "0",
+    "Location": [
+      	-38.416097, -63.616672
+    ]
+  },
+  {
+    "Country": "Guatemala",
+    "Country_ISO3": "GTM",
+    "Value" : "0",
+    "Exposure" : "0",
+    "Location": [
+      	15.783471, -90.230759
+    ]
+  },
+  {
+    "Country": "Guinea",
+    "Country_ISO3": "GIN",
+    "Value" : "0",
+    "Exposure" : "0",
+    "Location": [
+      9.945587,	-9.696645
+    ]
+  },
+  {
+    "Country": "Haiti",
+    "Country_ISO3": "HTI",
+    "Value" : "0",
+    "Exposure" : "0",
+    "Location": [
+      	18.971187, -72.285215
+    ]
+  },
+  {
+    "Country": "Honduras",
+    "Country_ISO3": "HND",
+    "Value" : "0",
+    "Exposure" : "0",
+    "Location": [
+      15.199999, -86.241905
+    ]
+  },
+  {
+    "Country": "China, Hong Kong Special Administrative Region",
+    "Country_ISO3": "CHN",
+    "Value" : "0",
+    "Exposure" : "0",
+    "Location": [
+      22.396428, 114.109497
+    ]
+  },
+  {
+    "Country": "Hungary",
+    "Country_ISO3": "HUN",
+    "Value" : "0",
+    "Exposure" : "0",
+    "Location": [
+      	47.162494, 19.503304
+    ]
+  },
+  {
+    "City": "Agra",
+    "Country": "India",
+    "Country_ISO3": "IND",
+    "Value" : "0",
+    "Exposure" : "0",
+    "Location": [
+      	20.593684, 78.96288
+    ]
+  },
+  {
+    "Country": "Australia",
+    "Country_ISO3": "AUS",
+    "Value" : "0",
+    "Exposure" : "0",
+    "Location": [
+      -25.274398,133.775136
+    ]
+  },
+  {
+    "Country": "Indonesia",
+    "Country_ISO3": "IDN",
+    "Value" : "0",
+    "Exposure" : "0",
+    "Location": [
+      -0.789275, 113.921327
+    ]
+  },
+  {
+    "Country": "Iran (Islamic Republic of)",
+    "Country_ISO3": "IRN",
+    "Value" : "0",
+    "Exposure" : "0",
+    "Location": [
+      32.427908, 53.688046
+    ]
+  },
+  {
+    "Country": "Iraq",
+    "Country_ISO3": "IRQ",
+    "Value" : "0",
+    "Exposure" : "0",
+    "Location": [
+      	33.223191, 43.679291
+    ]
+  },
+  {
+    "Country": "Ireland",
+    "Country_ISO3": "IRL",
+    "Value" : "0",
+    "Exposure" : "0",
+    "Location": [
+        53.41291, -8.24389
+    ]
+  },
+  {
+    "Country": "Israel",
+    "Country_ISO3": "ISR",
+    "Value" : "0",
+    "Exposure" : "0",
+    "Location": [
+      	31.046051, 34.851612
+    ]
+  },
+  {
+    "City": "Milano",
+    "Country": "Italy",
+    "Country_ISO3": "ITA",
+    "Value" : "0",
+    "Exposure" : "0",
+    "Location": [
+      	41.87194, 12.56738
+    ]
+  },
+  {
+    "City": "Abidjan",
+    "Country": "Côte d'Ivoire",
+    "Country_ISO3": "CIV",
+    "Value" : "0",
+    "Exposure" : "0",
+    "Location": [
+      	7.539989, -5.54708
+    ]
+  },
+  {
+    "Country": "Japan",
+    "Country_ISO3": "JPN",
+    "Value" : "0",
+    "Exposure" : "0",
+    "Location": [
+      	36.204824,	138.252924
+    ]
+  },
+  {
+    "Country": "Kazakhstan",
+    "Country_ISO3": "KAZ",
+    "Value" : "0",
+    "Exposure" : "0",
+    "Location": [
+      	48.019573, 66.923684
+    ]
+  },
+  {
+    "Country": "Afghanistan",
+    "Country_ISO3": "AFG",
+    "Value" : "0",
+    "Exposure" : "0",
+    "Location": [
+      33.93911, 67.709953
+    ]
+  },
+  {
+    "Country": "Austria",
+    "Country_ISO3": "AUT",
+    "Value" : "0",
+    "Exposure" : "0",
+    "Location": [
+      	47.516231, 14.550072
+    ]
+  },
+  {
+    "Country": "Jordan",
+    "Country_ISO3": "JOR",
+    "Value" : "0",
+    "Exposure" : "0",
+    "Location": [
+      30.585164, 36.238414
+    ]
+  },
+  {
+    "City": "Nairobi",
+    "Country": "Kenya",
+    "Country_ISO3": "KEN",
+    "Value" : "0",
+    "Exposure" : "0",
+    "Location": [
+      	-0.023559, 37.906193
+    ]
+  },
+  {
+    "Country": "Democratic People's Republic of Korea",
+    "Country_ISO3": "PRK",
+    "Value" : "0",
+    "Exposure" : "0",
+    "Location": [
+      40.339852, 127.510093
+    ]
+  },
+  {
+    "Country": "Republic of Korea",
+    "Country_ISO3": "KOR",
+    "Value" : "0",
+    "Exposure" : "0",
+    "Location": [
+      	35.907757,	127.766922
+    ]
+  },
+  {
+    "Country": "Kuwait",
+    "Country_ISO3": "KWT",
+    "Value" : "0",
+    "Exposure" : "0",
+    "Location": [
+      29.31166, 47.481766
+    ]
+  },
+  {
+    "Country": "Kyrgyzstan",
+    "Country_ISO3": "KGZ",
+    "Value" : "0",
+    "Exposure" : "0",
+    "Location": [
+      	41.20438,74.766098
+    ]
+  },
+  {
+    "Country": "Lebanon",
+    "Country_ISO3": "LBN",
+    "Value" : "0",
+    "Exposure" : "0",
+    "Location": [
+      33.854721,	35.862285
+    ]
+  },
+  {
+    "Country": "Liberia",
+    "Country_ISO3": "LBR",
+    "Value" : "0",
+    "Exposure" : "0",
+    "Location": [
+   	  6.428055,	-9.429499
+    ]
+  },
+  {
+    "Country": "Libyan Arab Jamahiriya",
+    "Country_ISO3": "LBY",
+    "Value" : "0",
+    "Exposure" : "0",
+    "Location": [
+      	26.3351, 17.228331
+    ]
+  },
+  {
+    "Country": "Madagascar",
+    "Country_ISO3": "MDG",
+    "Value" : "0",
+    "Exposure" : "0",
+    "Location": [
+      	-18.766947, 46.869107
+    ]
+  },
+  {
+    "Country": "Malaysia",
+    "Country_ISO3": "MYS",
+    "Value" : "0",
+    "Exposure" : "0",
+    "Location": [
+      4.210484,101.975766
+    ]
+  },
+  {
+    "Country": "Mali",
+    "Country_ISO3": "MLI",
+    "Value" : "0",
+    "Exposure" : "0",
+    "Location": [
+      17.570692,-3.996166
+    ]
+  },
+  {
+    "Country": "Mexico",
+    "Country_ISO3": "MEX",
+    "Value" : "0",
+    "Exposure" : "0",
+    "Location": [
+      23.634501, -102.552784
+    ]
+  },
+  {
+    "Country": "Mongolia",
+    "Country_ISO3": "MNG",
+    "Value" : "0",
+    "Exposure" : "0",
+    "Location": [
+      46.862496,	103.846656
+    ]
+  },
+  {
+    "Country": "Bangladesh",
+    "Country_ISO3": "BGD",
+    "Value" : "0",
+    "Exposure" : "0",
+    "Location": [
+      23.684994, 90.356331
+    ]
+  },
+  {
+    "Country": "Morocco",
+    "Country_ISO3": "MAR",
+    "Value" : "0",
+    "Exposure" : "0",
+    "Location": [
+      31.791702, -7.09262
+    ]
+  },
+  {
+    "Country": "Mozambique",
+    "Country_ISO3": "MOZ",
+    "Value" : "0",
+    "Exposure" : "0",
+    "Location": [
+      -18.665695, 35.529562
+    ]
+  },
+  {
+    "Country": "Armenia",
+    "Country_ISO3": "ARM",
+    "Value" : "0",
+    "Exposure" : "0",
+    "Location": [
+      40.069099,	45.038189
+    ]
+  },
+  {
+    "Country": "Nepal",
+    "Country_ISO3": "NPL",
+    "Value" : "0",
+    "Exposure" : "0",
+    "Location": [
+      28.394857, 84.124008
+    ]
+  },
+  {
+    "Country": "Netherlands",
+    "Country_ISO3": "NLD",
+    "Value" : "0",
+    "Exposure" : "0",
+    "Location": [
+      52.132633, 5.291266
+    ]
+  },
+  {   
+    "Country": "New Zealand",
+    "Country_ISO3": "NZL",
+    "Value" : "0",
+    "Exposure" : "0",
+    "Location": [
+      -40.900557, 174.885971
+    ]
+  },
+  {
+    "Country": "Nicaragua",
+    "Country_ISO3": "NIC",
+    "Value" : "0",
+    "Exposure" : "0",
+    "Location": [
+      	12.865416, -85.207229
+    ]
+  },
+  {
+    "Country": "Belgium",
+    "Country_ISO3": "BEL",
+    "Value" : "0",
+    "Exposure" : "0",
+    "Location": [
+      	50.503887, 4.469936
+    ]
+  },
+  {
+    "Country": "Nigeria",
+    "Country_ISO3": "NGA",
+    "Value" : "0",
+    "Exposure" : "0",
+    "Location": [
+      9.081999, 8.675277
+    ]
+  },
+  {
+    "Country": "Norway",
+    "Country_ISO3": "NOR",
+    "Value" : "0",
+    "Exposure" : "0",
+    "Location": [
+      60.472024,8.468946
+    ]
+  },
+  {
+    "Country": "Pakistan",
+    "Country_ISO3": "PAK",
+    "Value" : "0",
+    "Exposure" : "0",
+    "Location": [
+      30.375321, 69.345116
+    ]
+  },
+  {
+    "Country": "Panama",
+    "Country_ISO3": "PAN",
+    "Value" : "0",
+    "Exposure" : "0",
+    "Location": [
+      8.537981, -80.782127
+    ]
+  },
+  {    
+    "Country": "Paraguay",
+    "Country_ISO3": "PRY",
+    "Value" : "0",
+    "Exposure" : "0",
+    "Location": [
+      -23.442503, -58.443832
+    ]
+  },
+  {
+    "Country": "Peru",
+    "Country_ISO3": "PER",
+    "Value" : "0",
+    "Exposure" : "0",
+    "Location": [
+      	-9.189967, -75.015152
+    ]
+  },
+  {
+    "Country": "Philippines",
+    "Country_ISO3": "PHL",
+    "Value" : "0",
+    "Exposure" : "0",
+    "Location": [
+      12.879721, 121.774017
+    ]
+  },
+  {
+    "Country": "Poland",
+    "Country_ISO3": "POL",
+    "Value" : "0",
+    "Exposure" : "0",
+    "Location": [
+      51.919438, 19.145136
+    ]
+  },
+  {
+    "Country": "Poland",
+    "Country_ISO3": "POL",
+    "Value" : "0",
+    "Exposure" : "0",
+    "Location": [
+      	51.919438, 19.145136
+    ]
+  },
+  {
+    "Country": "Portugal",
+    "Country_ISO3": "PRT",
+    "Value" : "0",
+    "Exposure" : "0",
+    "Location": [
+      39.399872, -8.224454
+    ]
+  },
+  {
+    "Country": "Puerto Rico",
+    "Country_ISO3": "PRI",
+    "Value" : "0",
+    "Exposure" : "0",
+    "Location": [
+      18.220833, -66.590149
+    ]
+  },
+  {
+    "Country": "Romania",
+    "Country_ISO3": "ROU",
+    "Value" : "0",
+    "Exposure" : "0",
+    "Location": [
+      45.943161, 24.96676
+    ]
+  },
+  {
+    "Country": "Russian Federation",
+    "Country_ISO3": "RUS",
+    "Value" : "0",
+    "Exposure" : "0",
+    "Location": [
+      61.52401, 105.318756
+    ]
+  },
+  {
+    "Country": "Rwanda",
+    "Country_ISO3": "RWA",
+    "Value" : "0",
+    "Exposure" : "0",
+    "Location": [
+      	-1.940278, 29.873888
+    ]
+  },
+  {
+    "Country": "Bolivia",
+    "Country_ISO3": "BOL",
+    "Value" : "0",
+    "Exposure" : "0",
+    "Location": [
+      	-16.290154, -63.588653
+    ]
+  },
+  {
+    "Country": "Saudi Arabia",
+    "Country_ISO3": "SAU",
+    "Value" : "0",
+    "Exposure" : "0",
+    "Location": [
+      23.885942, 45.079162
+    ]
+  },
+  {
+    "Country": "Senegal",
+    "Country_ISO3": "SEN",
+    "Value" : "0",
+    "Exposure" : "0",
+    "Location": [
+      	14.497401, -14.452362
+    ]
+  },
+  {
+    "Country": "Serbia",
+    "Country_ISO3": "SRB",
+    "Value" : "0",
+    "Exposure" : "0",
+    "Location": [
+      44.016521, 21.005859
+    ]
+  },
+  {
+    "Country": "Sierra Leone",
+    "Country_ISO3": "SLE",
+    "Value" : "0",
+    "Exposure" : "0",
+    "Location": [
+      	8.460555, -11.779889
+    ]
+  },
+  {
+    "Country": "Singapore",
+    "Country_ISO3": "SGP",
+    "Value" : "0",
+    "Exposure" : "0",
+    "Location": [
+      1.352083, 103.819836
+    ]
+  },
+  {
+    "Country": "Vietnam",
+    "Country_ISO3": "VNM",
+    "Value" : "0",
+    "Exposure" : "0",
+    "Location": [
+      	14.058324, 108.277199
+    ]
+  },
+  {
+    "Country": "Somalia",
+    "Country_ISO3": "SOM",
+    "Value" : "0",
+    "Exposure" : "0",
+    "Location": [
+      5.152149, 46.199616
+    ]
+  },
+  {
+    "Country": "South Africa",
+    "Country_ISO3": "ZAF",
+    "Value" : "0",
+    "Exposure" : "0",
+    "Location": [
+      -30.559482,22.937506
+    ]
+  },
+  {
+    "Country": "Spain",
+    "Country_ISO3": "ESP",
+    "Value" : "0",
+    "Exposure" : "0",
+    "Location": [
+      40.463667, -3.74922
+    ]
+  },
+  {
+    "Country": "Sudan",
+    "Country_ISO3": "SDN",
+    "Value" : "0",
+    "Exposure" : "0",
+    "Location": [
+      12.862807, 30.217636
+    ]
+  },
+  {
+    "Country": "Sweden",
+    "Country_ISO3": "SWE",
+    "Value" : "0",
+    "Exposure" : "0",
+    "Location": [
+      	60.128161, 18.643501
+    ]
+  },
+  {
+    "Country": "Switzerland",
+    "Country_ISO3": "CHE",
+    "Value" : "0",
+    "Exposure" : "0",
+    "Location": [
+      46.818188,8.227512
+    ]
+  },
+  {
+    "Country": "Brazil",
+    "Country_ISO3": "BRA",
+    "Value" : "0",
+    "Exposure" : "0",
+    "Location": [
+      -14.235004, -51.92528
+    ]
+  },
+  {
+    "Country": "Syrian Arab Republic",
+    "Country_ISO3": "SYR",
+    "Value" : "0",
+    "Exposure" : "0",
+    "Location": [
+      34.802075, 38.996815
+    ]
+  },
+  {
+    "Country": "Thailand",
+    "Country_ISO3": "THA",
+    "Value" : "0",
+    "Exposure" : "0",
+    "Location": [
+      	15.870032, 100.992541
+    ]
+  },
+  {
+    "Country": "Togo",
+    "Country_ISO3": "TGO",
+    "Value" : "0",
+    "Exposure" : "0",
+    "Location": [
+      8.619543,0.824782
+    ]
+  },
+  {
+    "Country": "United Arab Emirates",
+    "Country_ISO3": "ARE",
+    "Value" : "0",
+    "Exposure" : "0",
+    "Location": [
+      23.424076,53.847818
+    ]
+  },
+  {
+    "Country": "Turkey",
+    "Country_ISO3": "TUR",
+    "Value" : "0",
+    "Exposure" : "0",
+    "Location": [
+      38.963745, 35.243322
+    ]
+  },
+  {
+    "City": "Antalya",
+    "Country": "Turkey",
+    "Country_ISO3": "TUR",
+    "Value" : "0",
+    "Exposure" : "0",
+    "Location": [
+      36.89,
+      30.7
+    ]
+  },
+  {
+    "City": "Bursa",
+    "Country": "Turkey",
+    "Country_ISO3": "TUR",
+    "Value" : "0",
+    "Exposure" : "0",
+    "Location": [
+      40.19,
+      29.07
+    ]
+  },
+  {
+    "City": "Gaziantep",
+    "Country": "Turkey",
+    "Country_ISO3": "TUR",
+    "Value" : "0",
+    "Exposure" : "0",
+    "Location": [
+      37.04,
+      37.3
+    ]
+  },
+  {
+    "City": "Istanbul",
+    "Country": "Turkey",
+    "Country_ISO3": "TUR",
+    "Value" : "0",
+    "Exposure" : "0",
+    "Location": [
+      41.06,
+      29
+    ]
+  },
+  {
+    "City": "Izmir",
+    "Country": "Turkey",
+    "Country_ISO3": "TUR",
+    "Value" : "0",
+    "Exposure" : "0",
+    "Location": [
+      38.43,
+      27.14
+    ]
+  },
+  {
+    "City": "Konya",
+    "Country": "Turkey",
+    "Country_ISO3": "TUR",
+    "Value" : "0",
+    "Exposure" : "0",
+    "Location": [
+      37.87,
+      32.48
+    ]
+  },
+  {
+    "Country": "Ukraine",
+    "Country_ISO3": "UKR",
+    "Value" : "0",
+    "Exposure" : "0",
+    "Location": [
+      48.379433, 31.16558
+    ]
+  },
+  {
+    "Country": "Egypt",
+    "Country_ISO3": "EGY",
+    "Value" : "0",
+    "Exposure" : "0",
+    "Location": [
+      26.820553, 30.802498
+    ]
+  },
+  {
+    "Country": "United Kingdom",
+    "Country_ISO3": "GBR",
+    "Value" : "0",
+    "Exposure" : "0",
+    "Location": [
+      55.378051,-3.435973
+    ]
+  },
+  {
+    "Country": "United Republic of Tanzania",
+    "Country_ISO3": "TZA",
+    "Value" : "0",
+    "Exposure" : "0",
+    "Location": [
+      6.369028, 34.888822	
+    ]
+  },
+  {
+    "Country": "United States",
+    "Country_ISO3": "USA",
+    "Value" : "0",
+    "Exposure" : "0",
+    "Location": [
+      37.0902, -95.7129
+    ]
+  },
+  {
+    "Country": "Burkina Faso",
+    "Country_ISO3": "BFA",
+    "Value" : "0",
+    "Exposure" : "0",
+    "Location": [
+      12.238333, -1.561593
+    ]
+  },
+  {
+    "Country": "Uruguay",
+    "Country_ISO3": "URY",
+    "Value" : "0",
+    "Exposure" : "0",
+    "Location": [
+	    -32.522779,	-55.765835
+    ]
+  },
+  {
+    "Country": "Uzbekistan",
+    "Country_ISO3": "UZB",
+    "Value" : "0",
+    "Exposure" : "0",
+    "Location": [
+      41.377491, 64.585262
+    ]
+  },
+  {
+    "Country": "Venezuela (Bolivarian Republic of)",
+    "Country_ISO3": "VEN",
+    "Value" : "0",
+    "Exposure" : "0",
+    "Location": [
+      6.42375, -66.58973
+    ]
+  },
+  {
+    "Country": "Yemen",
+    "Country_ISO3": "YEM",
+    "Value" : "0",
+    "Exposure" : "0",
+    "Location": [
+      15.552727, 48.516388
+    ]
+  },
+  {
+    "Country": "Zambia",
+    "Country_ISO3": "ZMB",
+    "Value" : "0",
+    "Exposure" : "0",
+    "Location": [
+      -13.133897, 27.849332
+    ]
+  },
+  {
+    "Country": "Luxembourg",
+    "Country_ISO3": "LUX",
+    "Value" : "0",
+    "Exposure" : "0",
+    "Location": [
+      49.8153, 6.1296
+    ]
+  }
+]
