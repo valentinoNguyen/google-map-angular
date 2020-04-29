@@ -17,7 +17,7 @@ export class MapComponent implements OnInit {
     zoomControl: false,
     scrollwheel: false,
     disableDoubleClickZoom: true,
-    mapTypeId: 'roadmap',
+    mapTypeId: 'terrain',
     maxZoom: 7,
     minZoom: 2,
     zoom: 2,
@@ -50,6 +50,11 @@ export class MapComponent implements OnInit {
       const boundsNew = new google.maps.LatLngBounds(swNew, neNew);
       this.map.fitBounds(boundsNew);
 
+      this.map.data.setStyle({
+        fillColor: 'LightGrey',
+        fillOpacity: 0.7,
+      });
+
       // this.markers.push({
       //   position: {
       //     lat: position.coords.latitude,
@@ -69,7 +74,27 @@ export class MapComponent implements OnInit {
   }
 
   ngAfterViewInit() {
-    this.map.data.loadGeoJson('/assets/countries-users.geo.json');
+    this.map.data.loadGeoJson('/assets/countries-users.geo.json', {}, () => {
+      this.map.data.setStyle(function(feature) {
+        var name = feature.getProperty('name');
+        var color = "gray";
+        if (name == "Russian Federation") {
+          color = "red";
+        }
+        console.log('-0=---')
+        return {
+          fillColor: color,
+          fillOpacity: 1,
+          strokeWeight: 1
+        };
+      });
+    });
+
+    this.map.data.addListener('click', function(event) {
+      console.log(event);
+      var name = event.feature.getProperty('name');
+      console.log(name);
+    });
   }
 
   zoomIn() {
