@@ -1,13 +1,18 @@
-import { Component, OnInit, ViewChild } from '@angular/core';
+import { Component, OnInit, ViewChild, AfterViewInit } from '@angular/core';
 import { GoogleMap, MapInfoWindow, MapMarker } from '@angular/google-maps';
 import { MapService } from '../services/map.service';
+
+enum MapMode {
+  Country = 'country',
+  Exposure = 'exposure'
+}
 
 @Component({
   selector: 'app-map',
   templateUrl: './map.component.html',
   styleUrls: ['./map.component.css']
 })
-export class MapComponent implements OnInit {
+export class MapComponent implements OnInit, AfterViewInit {
   @ViewChild(GoogleMap) map: GoogleMap;
   @ViewChild(MapInfoWindow) info: MapInfoWindow;
 
@@ -25,6 +30,8 @@ export class MapComponent implements OnInit {
   markers = [];
   infoContent = '';
 
+  mapMode: MapMode = MapMode.Country;
+
   constructor(private mapService: MapService) {
   }
 
@@ -35,18 +42,18 @@ export class MapComponent implements OnInit {
         lng: 0,
       };
 
-      var allowedBounds = new google.maps.LatLngBounds(
+      const allowedBounds = new google.maps.LatLngBounds(
         new google.maps.LatLng(85, -180),	// top left corner of map
         new google.maps.LatLng(-85, 180)	// bottom right corner
       );
-  
-      var k = 8.0;
-      var n = allowedBounds.getNorthEast().lat() - k;
-      var e = allowedBounds.getNorthEast().lng() - k;
-      var s = allowedBounds.getSouthWest().lat() + k;
-      var w = allowedBounds.getSouthWest().lng() + k;
-      var neNew = new google.maps.LatLng(n, e);
-      var swNew = new google.maps.LatLng(s, w);
+
+      const k = 8.0;
+      const n = allowedBounds.getNorthEast().lat() - k;
+      const e = allowedBounds.getNorthEast().lng() - k;
+      const s = allowedBounds.getSouthWest().lat() + k;
+      const w = allowedBounds.getSouthWest().lng() + k;
+      const neNew = new google.maps.LatLng(n, e);
+      const swNew = new google.maps.LatLng(s, w);
       const boundsNew = new google.maps.LatLngBounds(swNew, neNew);
       this.map.fitBounds(boundsNew);
 
@@ -74,35 +81,26 @@ export class MapComponent implements OnInit {
   }
 
   ngAfterViewInit() {
-    this.map.data.loadGeoJson('/assets/countries-users.geo.json', {}, () => {
-      this.map.data.setStyle(function(feature) {
-        var name = feature.getProperty('name');
-        var color = "gray";
-        if (name == "Russian Federation") {
-          color = "red";
-        }
-        console.log('-0=---')
-        return {
-          fillColor: color,
-          fillOpacity: 1,
-          strokeWeight: 1
-        };
-      });
-    });
+    this.loadCountryGeoStyle([
+      {
+        name: 'Russian Federation',
+        color: 'red'
+      }
+    ]);
 
-    this.map.data.addListener('click', function(event) {
+    this.map.data.addListener('click', (event) => {
       console.log(event);
-      var name = event.feature.getProperty('name');
+      const name = event.feature.getProperty('name');
       console.log(name);
     });
   }
 
   zoomIn() {
-    if (this.zoom < this.options.maxZoom) this.zoom++;
+    if (this.zoom < this.options.maxZoom) { this.zoom++; }
   }
 
   zoomOut() {
-    if (this.zoom > this.options.minZoom) this.zoom--;
+    if (this.zoom > this.options.minZoom) { this.zoom--; }
   }
 
   click(event: google.maps.MouseEvent) {
@@ -121,19 +119,54 @@ export class MapComponent implements OnInit {
       },
       label: {
         color: 'red',
-        text: 'Marker label ' + (this.markers.length + 1),
+        text: ' ',
       },
-      title: 'Marker title ' + (this.markers.length + 1),
-      info: 'Marker info ' + (this.markers.length + 1),
-      options: {
-        animation: google.maps.Animation.BOUNCE,
-      },
+      title: ' ',
+      info: 'Marker info ',
+      // options: {
+      //   animation: google.maps.Animation.BOUNCE,
+      // },
     });
   }
 
   openInfo(marker: MapMarker, content) {
-    this.infoContent = content;
-    this.info.open(marker);
+    // this.infoContent = content;
+    // this.info.open(marker);
+  }
+
+  switchMode(mapMode: MapMode) {
+    this.mapMode = mapMode;
+    if (this.mapMode === MapMode.Country) {
+      this.markers = [];
+      this.loadCountryGeoStyle([
+        {
+          name: 'Russian Federation',
+          color: 'red'
+        }
+      ]);
+    } else {
+      this.loadCountryGeoStyle();
+      this.addMarker();
+    }
+  }
+
+  loadCountryGeoStyle(coloredCountry?: { name: string, color: string }[]) {
+    this.map.data.loadGeoJson('/assets/countries-users.geo.json', {}, () => {
+      this.map.data.setStyle((feature) => {
+        const name = feature.getProperty('name');
+        let color = 'gray';
+        if (coloredCountry && coloredCountry.length > 0) {
+          const filtered = coloredCountry.find(country => country.name === name);
+          color = filtered ? filtered.color : 'gray';
+        }
+        console.log('-0=---');
+        return {
+          fillColor: color,
+          fillOpacity: 1,
+          strokeWeight: 1
+        };
+      });
+    });
   }
 
 }

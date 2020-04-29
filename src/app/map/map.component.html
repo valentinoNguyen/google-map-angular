@@ -7,8 +7,7 @@
   [options]="options"
   (mapClick)="click($event)"
 >
-  <!-- <map-marker
-    #markerElem
+  <map-marker
     *ngFor="let marker of markers"
     [position]="marker.position"
     [label]="marker.label"
@@ -18,9 +17,11 @@
   >
   </map-marker>
 
-  <map-info-window>{{ infoContent }}</map-info-window> -->
+  <!-- <map-info-window>{{ infoContent }}</map-info-window> -->
 </google-map>
 
+<button (click)="switchMode('country')">Country</button>
+<button (click)="switchMode('exposure')">Exposure</button>
 <button (click)="zoomIn()">Zoom in</button>
 <button (click)="zoomOut()">Zoom out</button>
 <button (click)="logCenter()">Log center</button>
